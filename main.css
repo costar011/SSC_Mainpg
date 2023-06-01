@@ -1,0 +1,12 @@
+.main_btn {
+    border-radius: 5px;
+}
+
+.btn {
+    height: 30px;
+  
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 4px;
+  }
