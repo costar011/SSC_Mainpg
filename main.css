@@ -1,42 +1,41 @@
 .main_menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.main_btn{
-    width: 100px;
-    height: 40px;
+.main_btn {
+  width: 100px;
+  height: 40px;
 
-    border: 2px solid #85cdfd;
-    cursor: pointer;
-    background: transparent;
-    color: #0f71ff;
+  border: 2px solid #85cdfd;
+  cursor: pointer;
+  background: transparent;
 }
 
 .main_menu1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .text {
-    border: 2px solid #000;
+  border: 2px;
+  border: 2px solid #000;
 }
 
 .search {
-    cursor: pointer;
+  cursor: pointer;
+  border: 1px solid #85cdfd;
 }
 
+.btn_menu {
+  width: 150px;
+  height: 30px;
 
-.btn {
-    height: 30px;
-  
-    border-radius: 5px;
-    cursor: pointer;
-    border: none;
-    padding: 4px;
-  }
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #85cdfd;
+}
