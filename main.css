@@ -68,12 +68,16 @@
 
 .inner-list {
   display: flex;
-  transition: 0.3s ease-out;
+  transition: 0.1s ease-out;
   height: 100%;
 }
 
 .inner {
   padding: 0 16px;
+}
+
+h2 {
+  background-color: antiquewhite;
 }
 
 .button-list {

@@ -42,7 +42,7 @@ const getInterval = () => {
     currentIndex++;
     currentIndex = currentIndex >= inners.length ? 0 : currentIndex;
     innerList.style.marginLeft = `-${outer.clientWidth * currentIndex}px`;
-  }, 2000);
+  }, 1000);
 }
 
 let interval = getInterval(); // interval 등록
