@@ -44,7 +44,7 @@
 
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 70px;
+  margin-left: 30px;
   background: transparent;
 }
 
@@ -53,12 +53,50 @@
   flex-direction: row;
 }
 
+.outer {
+  border: 5px solid #000;
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  overflow-x: hidden;
+
+  margin-top: 30px;
+}
+
+.inner-list {
+  display: flex;
+  transition: 0.3s ease-out;
+  height: 100%;
+}
+
+.inner {
+  padding: 0 16px;
+}
+
+.button-list {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-left {
+  cursor: pointer;
+  border: 2px solid #676767;
+  border-radius: 3px;
+}
+
+.button-right {
+  cursor: pointer;
+  border: 2px solid #676767;
+  border-radius: 3px;
+
+}
+
 .btn_tab {
-  width: 200px;
-  border: 2px solid #5677;
+  width: 100px;
+  border: 1px solid #5677;
   margin-top: 40px;
   margin-left: 100px;
   cursor: pointer;
-  background: transparent;  
+  background: transparent;
   border-radius: 5px;
 }
