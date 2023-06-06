@@ -26,16 +26,18 @@
 }
 
 .text {
-  width: 450px;
+  width: 600px;
   border: 2px;
   border: 2px solid #000;
   margin-right: 20px;
+  border-radius: 3px;
 }
 
 .search {
   cursor: pointer;
   margin-right: 40px;
   background: transparent;
+  border-radius: 5px;
 }
 
 .btn_menu {
@@ -51,6 +53,7 @@
 .main_tab {
   display: flex;
   flex-direction: row;
+  margin-left: 100px;
 }
 
 .outer {
